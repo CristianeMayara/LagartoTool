@@ -383,7 +383,7 @@ ul#filters {
 }
 .app-img {
   width: auto;
-  height: 250px;
+  height: 240px;
   object-fit: cover;
   object-position: left;
 }
@@ -392,6 +392,7 @@ ul#filters {
   height: 350px;
   overflow: hidden;
   margin: 4px;
+  text-align: center;
 }
 ul#filters {
   margin-bottom:  45px ;
