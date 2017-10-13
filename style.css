@@ -45,6 +45,13 @@ h1, h2, h3, h4, h5, h6, nav, .btn {
 	width: 47px;
 	margin: 20px auto;
 }
+.divider:after  {
+	content:" ";
+	display:block;
+	background-color:#D4D4D4;
+	height:1px;
+	margin: 30px auto;
+}
 
 .navbar.navbar-inverse {
 	border-radius: 0;
