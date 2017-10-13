@@ -381,6 +381,18 @@ ul#filters {
 	max-width: 100%;
 	width: 600px;
 }
+.app-img {
+  width: auto;
+  height: 250px;
+  object-fit: cover;
+  object-position: left;
+}
+.app-img-box {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  margin: 4px;
+}
 ul#filters {
   margin-bottom:  45px ;
 }
