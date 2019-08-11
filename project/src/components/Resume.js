@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Resume = ({ resumeData }) => (
   <section id="resume">
@@ -15,25 +16,27 @@ const Resume = ({ resumeData }) => (
         <div className="bars">
           <ul className="skills">
             {resumeData.skills &&
-              resumeData.skills.map(item => {
-                console.log(item);
-
-                return (
-                  <li>
-                    <span
-                      className={`bar-expand ${item.skillname
-                        .toLowerCase()
-                        .replace(/ /g, "")}`}
-                    />
-                    <em>{item.skillname}</em>
-                  </li>
-                );
-              })}
+              resumeData.skills.map(item => (
+                <li key={item.id}>
+                  <span
+                    className={`bar-expand ${item.skillname
+                      .toLowerCase()
+                      .replace(/ /g, "")}`}
+                  />
+                  <em>{item.skillname}</em>
+                </li>
+              ))}
           </ul>
         </div>
       </div>
     </div>
   </section>
 );
+
+Resume.propTypes = {
+  resumeData: PropTypes.shape({
+    skills: PropTypes.array.isRequired
+  }).isRequired
+};
 
 export default Resume;
