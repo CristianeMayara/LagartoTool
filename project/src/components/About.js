@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const About = ({ resumeData }) => (
   <section id="about">
@@ -27,5 +28,14 @@ const About = ({ resumeData }) => (
     </div>
   </section>
 );
+
+About.propTypes = {
+  resumeData: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    aboutme: PropTypes.string.isRequired,
+    address: PropTypes.string.isRequired,
+    website: PropTypes.string.isRequired
+  }).isRequired
+};
 
 export default About;

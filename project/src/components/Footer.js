@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Footer = ({ resumeData }) => (
   <footer>
@@ -7,7 +8,7 @@ const Footer = ({ resumeData }) => (
         <ul className="social-links">
           {resumeData.socialLinks &&
             resumeData.socialLinks.map(item => (
-              <li>
+              <li key={item.name}>
                 <a href={item.url}>
                   <i className={item.className} />
                 </a>
@@ -23,5 +24,11 @@ const Footer = ({ resumeData }) => (
     </div>
   </footer>
 );
+
+Footer.propTypes = {
+  resumeData: PropTypes.shape({
+    socialLinks: PropTypes.array.isRequired
+  }).isRequired
+};
 
 export default Footer;

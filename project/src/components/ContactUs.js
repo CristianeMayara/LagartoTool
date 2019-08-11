@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const ContactUs = ({ resumeData }) => (
   <section id="contact">
@@ -21,5 +22,11 @@ const ContactUs = ({ resumeData }) => (
         </div> */}
   </section>
 );
+
+ContactUs.propTypes = {
+  resumeData: PropTypes.shape({
+    linkedinId: PropTypes.string.isRequired
+  }).isRequired
+};
 
 export default ContactUs;
