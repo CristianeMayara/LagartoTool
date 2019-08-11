@@ -19,7 +19,7 @@ const Resume = ({ resumeData }) => (
               resumeData.skills.map(item => (
                 <li key={item.id}>
                   <span
-                    className={`bar-expand ${item.skillname
+                    className={`bar-expand ${item.key
                       .toLowerCase()
                       .replace(/ /g, "")}`}
                   />

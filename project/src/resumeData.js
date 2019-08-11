@@ -62,27 +62,59 @@ let resumeData = {
   skills: [
     {
       id: 1,
+      key: "reactjs",
       skillname: "ReactJS"
     },
     {
       id: 2,
+      key: "reactnative",
       skillname: "React Native"
     },
+
     {
       id: 3,
-      skillname: "HTML5"
+      key: "redux",
+      skillname: "Redux"
     },
     {
       id: 4,
-      skillname: "CSS"
+      key: "graphql",
+      skillname: "GraphQL/Apollo Cli"
     },
     {
       id: 5,
-      skillname: "Javascript"
+      key: "html5",
+      skillname: "HTML5"
     },
     {
       id: 6,
+      key: "css",
+      skillname: "CSS3/Flexbox/SASS/Styled Components"
+    },
+    {
+      id: 7,
+      key: "javascript",
+      skillname: "Javascript"
+    },
+    {
+      id: 8,
+      key: "jest",
+      skillname: "Jest/Enzyme"
+    },
+    {
+      id: 9,
+      key: "android",
       skillname: "Android"
+    },
+    {
+      id: 10,
+      key: "nodejs",
+      skillname: "NodeJS"
+    },
+    {
+      id: 11,
+      key: "mongodb",
+      skillname: "MongoDB"
     }
   ],
   portfolio: [
