@@ -25,6 +25,7 @@ let resumeData = {
   aboutme:
     "Atualmente sou desenvolvedora Front-End React, com experiência em projetos mobile para Android e iOS.",
   address: "Florianópolis - SC, Brasil",
+  email: "cris.mayara@gmail.com",
   website: "https://cristianemayara.github.io",
   education: [
     {

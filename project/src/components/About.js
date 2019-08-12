@@ -20,6 +20,8 @@ const About = ({ resumeData }) => (
               <br />
               <span>{resumeData.address}</span>
               <br />
+              <span>{resumeData.email}</span>
+              <br />
               <span>{resumeData.website}</span>
             </p>
           </div>
