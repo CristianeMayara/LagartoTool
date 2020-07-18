@@ -379,54 +379,29 @@ ul#nav li.current a {
   -webkit-animation: wordpress 2s ease;
 }
 .css {
-  width: 70%;
+  width: 75%;
   -moz-animation: css 2s ease;
   -webkit-animation: css 2s ease;
 }
 .reactjs {
-  width: 80%;
+  width: 85%;
   -moz-animation: reactjs 2s ease;
   -webkit-animation: reactjs 2s ease;
 }
 .reactnative {
-  width: 80%;
+  width: 85%;
   -moz-animation: reactnative 2s ease;
   -webkit-animation: reactnative 2s ease;
 }
 .javascript {
-  width: 65%;
+  width: 90%;
   -moz-animation: javascript 2s ease;
   -webkit-animation: javascript 2s ease;
 }
-.redux {
-  width: 80%;
-  -moz-animation: redux 2s ease;
-  -webkit-animation: redux 2s ease;
-}
 .nodejs {
-  width: 55%;
-  -moz-animation: nodejs 2s ease;
+  width: 50%;
+  -moz-animation: nodesjs 2s ease;
   -webkit-animation: nodejs 2s ease;
-}
-.graphql {
-  width: 70%;
-  -moz-animation: graphql 2s ease;
-  -webkit-animation: graphql 2s ease;
-}
-.jest {
-  width: 60%;
-  -moz-animation: jest 2s ease;
-  -webkit-animation: jest 2s ease;
-}
-.android {
-  width: 70%;
-  -moz-animation: android 2s ease;
-  -webkit-animation: android 2s ease;
-}
-.mongodb {
-  width: 60%;
-  -moz-animation: mongodb 2s ease;
-  -webkit-animation: mongodb 2s ease;
 }
 .html5 {
   width: 80%;
@@ -495,52 +470,12 @@ ul#nav li.current a {
     width: 65%;
   }
 }
-@-moz-keyframes redux {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 80%;
-  }
-}
-@-moz-keyframes nodejs {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 55%;
-  }
-}
-@-moz-keyframes graphql {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 70%;
-  }
-}
-@-moz-keyframes jest {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 60%;
-  }
-}
 @-moz-keyframes android {
   0% {
     width: 0px;
   }
   100% {
     width: 70%;
-  }
-}
-@-moz-keyframes mongodb {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 60%;
   }
 }
 @-moz-keyframes html5 {
@@ -616,52 +551,12 @@ ul#nav li.current a {
     width: 65%;
   }
 }
-@-webkit-keyframes redux {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 80%;
-  }
-}
-@-webkit-keyframes nodejs {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 55%;
-  }
-}
-@-webkit-keyframes graphql {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 70%;
-  }
-}
-@-webkit-keyframes jest {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 60%;
-  }
-}
 @-webkit-keyframes android {
   0% {
     width: 0px;
   }
   100% {
     width: 70%;
-  }
-}
-@-webkit-keyframes mongodb {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 60%;
   }
 }
 @-webkit-keyframes html5 {
